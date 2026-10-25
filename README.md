@@ -16,11 +16,5 @@ python3 main.py
 
 ## Автор
 Руслан Довгаль — изучаю Python и AI
-   Сохрани (Cmd+S).
-2. В Терминале:
-git status
-git diff
-git add .
-git commit -m "Добавил автора в README"
-git push
+
 
