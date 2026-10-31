@@ -1,0 +1,11 @@
+name: CI
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-lates
+    steps:
+      - uses: actions/che
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python test_
